@@ -1,15 +1,9 @@
-num1=int(input())
-num2=int(input())
-operator=input()
+age = int(input())
 
-if operator=='+':
-    print(num1+num2)
-elif operator=='-':
-    print(num1-num2)
-elif operator=='*':
-    print(num1*num2)
-elif operator=='/':
-    print(num1//num2)
+if age>=18:
+
+    print("Eligible")
+
 else:
-    print("Invalid operator")
-  
+
+    print("Ineligible")
